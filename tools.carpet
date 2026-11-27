@@ -19,6 +19,30 @@
       "name": "Pico de hierro",
       "power": 4,
       "cost": 250
+    },
+    {
+      "id": "gold_pickaxe",
+      "name": "Pico de oro",
+      "power": 7,
+      "cost": 900
+    },
+    {
+      "id": "diamond_pickaxe",
+      "name": "Pico de diamante",
+      "power": 12,
+      "cost": 3500
+    },
+    {
+      "id": "obsidian_pickaxe",
+      "name": "Pico de obsidiana",
+      "power": 22,
+      "cost": 12000
+    },
+    {
+      "id": "crystal_pickaxe",
+      "name": "Pico de cristal Fable",
+      "power": 40,
+      "cost": 50000
     }
   ]
 }
