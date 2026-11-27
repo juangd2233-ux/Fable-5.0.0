@@ -1,0 +1,24 @@
+{
+  "format": "fable-carpet-tools",
+  "version": "5.0.0",
+  "tools": [
+    {
+      "id": "wood_pickaxe",
+      "name": "Pico de madera",
+      "power": 1,
+      "cost": 0
+    },
+    {
+      "id": "stone_pickaxe",
+      "name": "Pico de piedra",
+      "power": 2,
+      "cost": 50
+    },
+    {
+      "id": "iron_pickaxe",
+      "name": "Pico de hierro",
+      "power": 4,
+      "cost": 250
+    }
+  ]
+}
