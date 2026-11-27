@@ -1,0 +1,10 @@
+{
+  "format": "fable-carpet-textures",
+  "version": "5.0.0",
+  "textures": {
+    "stone": "textures/stone.png",
+    "ore": "textures/ore.png",
+    "grass": "textures/grass.png",
+    "dirt": "textures/dirt.png"
+  }
+}
