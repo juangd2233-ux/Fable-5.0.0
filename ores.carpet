@@ -1,0 +1,30 @@
+{
+  "format": "fable-carpet-ores",
+  "version": "5.0.0",
+  "ores": [
+    {
+      "id": "coal",
+      "name": "Carbón",
+      "value": 2,
+      "rarity": 0.55
+    },
+    {
+      "id": "iron",
+      "name": "Hierro",
+      "value": 8,
+      "rarity": 0.3
+    },
+    {
+      "id": "gold",
+      "name": "Oro",
+      "value": 25,
+      "rarity": 0.12
+    },
+    {
+      "id": "diamond",
+      "name": "Diamante",
+      "value": 100,
+      "rarity": 0.03
+    }
+  ]
+}
