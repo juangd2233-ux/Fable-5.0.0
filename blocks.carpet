@@ -1,0 +1,21 @@
+{
+  "format": "fable-carpet-blocks",
+  "version": "5.0.0",
+  "blocks": [
+    {
+      "id": "stone",
+      "name": "Piedra",
+      "hardness": 1
+    },
+    {
+      "id": "dirt",
+      "name": "Tierra",
+      "hardness": 0.5
+    },
+    {
+      "id": "grass",
+      "name": "Pasto",
+      "hardness": 0.7
+    }
+  ]
+}
