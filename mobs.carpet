@@ -1,0 +1,13 @@
+{
+  "format": "fable-carpet-mobs",
+  "version": "5.0.0",
+  "mobs": [
+    {
+      "id": "miner",
+      "name": "Minero automático",
+      "type": "worker",
+      "miningPerSecond": 1,
+      "cost": 100
+    }
+  ]
+}
