@@ -1,0 +1,26 @@
+{
+  "format": "fable-carpet-commands",
+  "version": "5.0.0",
+  "commands": [
+    {
+      "name": "help",
+      "usage": "/help",
+      "description": "Muestra los comandos disponibles"
+    },
+    {
+      "name": "balance",
+      "usage": "/balance",
+      "description": "Muestra tus monedas"
+    },
+    {
+      "name": "sell",
+      "usage": "/sell",
+      "description": "Vende los minerales guardados"
+    },
+    {
+      "name": "upgrade",
+      "usage": "/upgrade",
+      "description": "Mejora tu pico"
+    }
+  ]
+}
