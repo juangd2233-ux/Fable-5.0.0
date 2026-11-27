@@ -4,10 +4,31 @@
   "mobs": [
     {
       "id": "miner",
-      "name": "Minero automático",
+      "name": "Minero",
       "type": "worker",
       "miningPerSecond": 1,
       "cost": 100
+    },
+    {
+      "id": "mole",
+      "name": "Topo minero",
+      "type": "worker",
+      "miningPerSecond": 3,
+      "cost": 450
+    },
+    {
+      "id": "cave_golem",
+      "name": "Gólem de cueva",
+      "type": "worker",
+      "miningPerSecond": 8,
+      "cost": 2200
+    },
+    {
+      "id": "crystal_sprite",
+      "name": "Duende de cristal",
+      "type": "worker",
+      "miningPerSecond": 20,
+      "cost": 10000
     }
   ]
 }
