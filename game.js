@@ -1,6 +1,16 @@
 (() => {
 "use strict";
 const $=id=>document.getElementById(id);
+const TARGET_FPS=30;
+const FRAME_INTERVAL=1000/TARGET_FPS;
+let lastFrame=0;
+function frameLimiter(timestamp){
+  requestAnimationFrame(frameLimiter);
+  if(timestamp-lastFrame<FRAME_INTERVAL)return;
+  lastFrame=timestamp-(timestamp%FRAME_INTERVAL);
+  document.documentElement.dataset.targetFps=String(TARGET_FPS);
+}
+requestAnimationFrame(frameLimiter);
 const defaults={coins:0,ore:0,power:1,auto:0,pickLevel:0};
 let data={...defaults};
 const pickPrice=()=>Math.floor(25*Math.pow(1.65,data.pickLevel));
