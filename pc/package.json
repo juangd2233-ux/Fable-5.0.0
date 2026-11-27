@@ -1,0 +1,38 @@
+{
+  "name": "fable-pc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fable Mining desktop edition for Windows PC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.fable.mining",
+    "productName": "Fable-1.0",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "../index.html",
+      "../style.css",
+      "../game.js"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "artifactName": "Fable-1.0.exe"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
