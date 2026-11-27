@@ -5,22 +5,37 @@
     {
       "name": "help",
       "usage": "/help",
-      "description": "Muestra los comandos disponibles"
+      "description": "Lista comandos disponibles"
     },
     {
       "name": "balance",
       "usage": "/balance",
-      "description": "Muestra tus monedas"
+      "description": "Muestra monedas y minerales"
     },
     {
       "name": "sell",
       "usage": "/sell",
-      "description": "Vende los minerales guardados"
+      "description": "Vende minerales (10 → 5 monedas)"
     },
     {
       "name": "upgrade",
       "usage": "/upgrade",
-      "description": "Mejora tu pico"
+      "description": "Equipa el pico de mayor fuerza que tengas"
+    },
+    {
+      "name": "buy",
+      "usage": "/buy <pickaxe_id>",
+      "description": "Compra y equipa un pico disponible"
+    },
+    {
+      "name": "hire",
+      "usage": "/hire <mob_id>",
+      "description": "Contrata un ayudante de mina"
+    },
+    {
+      "name": "mine",
+      "usage": "/mine",
+      "description": "Golpea la roca una vez"
     }
   ]
 }
