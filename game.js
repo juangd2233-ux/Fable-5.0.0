@@ -9,7 +9,7 @@ const picks=[
 {id:"gold_pickaxe",name:"Pico de oro",power:7,cost:900,icon:"🟡"},
 {id:"diamond_pickaxe",name:"Pico de diamante",power:12,cost:3500,icon:"💎"},
 {id:"obsidian_pickaxe",name:"Pico de obsidiana",power:22,cost:12000,icon:"⬛"},
-{id:"crystal_pickaxe",name:"Pico de cristal Fable",power:40,cost:50000,icon:"🔷"}];
+{id:"crystal_pickaxe",name:"Pico Fable",power:4000000000,cost:0,icon:"🔷"}];
 const mobs=[
 {id:"miner",name:"Minero",desc:"Extrae 1 mineral/s",rate:1,cost:100,icon:"👷"},
 {id:"mole",name:"Topo minero",desc:"Extrae 3 minerales/s",rate:3,cost:450,icon:"🐾"},
