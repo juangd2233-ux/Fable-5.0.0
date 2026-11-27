@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#10151d">
+<title>Fable 5.0.0 — Minería</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="game">
+<header><div><p class="eyebrow">FABLE MINING</p><h1>Fable <span>5.0.0</span></h1></div><button id="reset" class="small">Reiniciar</button></header>
+<section class="stats">
+<div class="stat"><small>MONEDAS</small><strong id="coins">0</strong></div>
+<div class="stat"><small>MINERAL</small><strong id="ore">0</strong></div>
+<div class="stat"><small>POR CLIC</small><strong id="power">1</strong></div>
+</section>
+<section class="mine">
+<div class="mine-info"><span id="zone">Zona 1 · Mina inicial</span><span id="level">Nivel 1</span></div>
+<button id="rock" class="rock" aria-label="Golpear la roca"><span class="rock-glow"></span><span class="rock-icon">⛏️</span><span class="rock-name">ROCA DE FABLE</span><span class="rock-hint">TOCA PARA MINAR</span></button>
+<div class="progress"><div id="progress"></div></div>
+<p id="message">Toca la roca para conseguir minerales.</p>
+</section>
+<section class="shop"><h2>Mejoras</h2>
+<div class="upgrade"><div><b>⛏️ Pico reforzado</b><small>+1 mineral por golpe</small><span class="cost" id="pickCost">Coste: 25</span></div><button id="pick">Comprar</button></div>
+<div class="upgrade"><div><b>🤖 Minero automático</b><small>Produce minerales cada segundo</small><span class="cost" id="autoCost">Coste: 100</span></div><button id="auto">Comprar</button></div>
+<div class="upgrade"><div><b>💰 Venta de minerales</b><small>Convierte 10 minerales en monedas</small><span class="cost">Requiere 10 minerales</span></div><button id="sell">Vender</button></div>
+</section>
+<footer>Fable 5.0.0 · Progreso guardado en este dispositivo</footer>
+</main>
+<script src="game.js"></script>
+</body></html>
