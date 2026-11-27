@@ -6,6 +6,11 @@
 <meta name="theme-color" content="#10151d">
 <title>Fable 5.0.0 — Minería</title>
 <link rel="stylesheet" href="./style.css">
+<style>
+/* Textura pixelada temporal integrada en HTML */
+.rock-texture{display:block;width:112px;height:112px;margin:0 auto 12px;border:4px solid #292f39;image-rendering:pixelated;background-color:#626b76;background-image:linear-gradient(135deg,transparent 0 24%,#87919c 24% 38%,transparent 38% 100%),linear-gradient(45deg,transparent 0 48%,#414a55 48% 65%,transparent 65%),linear-gradient(90deg,#747e89 0 25%,#59636e 25% 50%,#87919c 50% 75%,#4a535e 75%);box-shadow:inset 8px 8px #a0a8b0,inset -8px -8px #343c46,0 5px 0 #171c23;
+}
+</style>
 </head>
 <body>
 <main class="game">
@@ -17,7 +22,7 @@
 </section>
 <section class="mine">
 <div class="mine-info"><span id="zone">Zona 1 · Mina inicial</span><span id="level">Nivel 1</span></div>
-<button id="rock" class="rock" aria-label="Golpear la roca"><span class="rock-glow"></span><span class="rock-icon">⛏️</span><span class="rock-name">ROCA DE FABLE</span><span class="rock-hint">TOCA PARA MINAR</span></button>
+<button id="rock" class="rock" aria-label="Golpear la roca"><span class="rock-glow"></span><span class="rock-texture" role="img" aria-label="Textura pixelada de roca minera"></span><span class="rock-name">ROCA DE FABLE</span><span class="rock-hint">TOCA PARA MINAR</span></button>
 <div class="progress"><div id="progress"></div></div>
 <p id="message">Toca la roca para conseguir minerales.</p>
 </section>
